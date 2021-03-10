@@ -1,0 +1,288 @@
+**********************************************************************
+** Visual Studio 2019 Developer PowerShell v16.9.0-pre.3.0
+** Copyright (c) 2020 Microsoft Corporation
+**********************************************************************
+PS C:\devel\StudentDB> .\bin\Debug\StudentDB.exe
+Reading input file is complete...
+
+        ******************************************
+        ******* Student Database App *************
+        ******************************************
+        [A]dd a student record          (C in CRUD)
+        [F]ind a record                 (R in CRUD)
+        [P]rint all the records         (Only for testing)
+        [D]elete an existing record     (D in CRUD)
+        [M]odify an existing record     (U in CRUD)
+        [E]xit without saving changes
+        [S]ave all changes and quit
+
+ENTER user selection: p**** Student record *******************
+First Name: David
+ Last Name: Dillon
+       GPA: 3.7
+     Email: ddillon@uw.edu
+  Enrolled: 2/26/2021 5:10:00 PM
+
+    Credit: 11111.99
+       Fac: Dr. Donald Chinn
+
+**** Student record *******************
+First Name: Alice
+ Last Name: Anderson
+       GPA: 4
+     Email: aanderson@uw.edu
+  Enrolled: 2/26/2021 5:10:00 PM
+
+    Credit: 22222.99
+       Fac: Dr. Matt Tolentino
+
+**** Student record *******************
+First Name: Bob
+ Last Name: Bradshaw
+       GPA: 3.9
+     Email: bbradshaw@uw.edu
+  Enrolled: 2/26/2021 5:10:00 PM
+
+      Year: Freshman
+     Major: Computer Science
+
+**** Student record *******************
+First Name: Carlos
+ Last Name: Castaneda
+       GPA: 3.8
+     Email: ccastaneda@uw.edu
+  Enrolled: 2/26/2021 5:10:00 PM
+
+      Year: Junior
+     Major: Biology
+
+
+        ******************************************
+        ******* Student Database App *************
+        ******************************************
+        [A]dd a student record          (C in CRUD)
+        [F]ind a record                 (R in CRUD)
+        [P]rint all the records         (Only for testing)
+        [D]elete an existing record     (D in CRUD)
+        [M]odify an existing record     (U in CRUD)
+        [E]xit without saving changes
+        [S]ave all changes and quit
+
+ENTER user selection: f
+ENTER email address (primary key) to search:
+kylelam@uw.edu
+kylelam@uw.edu NOT FOUND.
+
+        ******************************************
+        ******* Student Database App *************
+        ******************************************
+        [A]dd a student record          (C in CRUD)
+        [F]ind a record                 (R in CRUD)
+        [P]rint all the records         (Only for testing)
+        [D]elete an existing record     (D in CRUD)
+        [M]odify an existing record     (U in CRUD)
+        [E]xit without saving changes
+        [S]ave all changes and quit
+
+ENTER user selection: a
+ENTER email address (primary key) to search:
+aanderson@uw.edu
+FOUND email address: aanderson@uw.edu
+aanderson@uw.edu RECORD FOUND! Can't add student aanderson@uw.edu,
+Record already exists.
+
+        ******************************************
+        ******* Student Database App *************
+        ******************************************
+        [A]dd a student record          (C in CRUD)
+        [F]ind a record                 (R in CRUD)
+        [P]rint all the records         (Only for testing)
+        [D]elete an existing record     (D in CRUD)
+        [M]odify an existing record     (U in CRUD)
+        [E]xit without saving changes
+        [S]ave all changes and quit
+
+ENTER user selection: m
+ENTER email address (primary key) to search:
+kylelam@uw.edu
+kylelam@uw.edu NOT FOUND.
+***** RECORD NOT FOUND.
+Can/t edit record for user kylelam@uw.edu.
+
+        ******************************************
+        ******* Student Database App *************
+        ******************************************
+        [A]dd a student record          (C in CRUD)
+        [F]ind a record                 (R in CRUD)
+        [P]rint all the records         (Only for testing)
+        [D]elete an existing record     (D in CRUD)
+        [M]odify an existing record     (U in CRUD)
+        [E]xit without saving changes
+        [S]ave all changes and quit
+
+ENTER user selection: m
+ENTER email address (primary key) to search:
+ccastaneda@uw.edu
+FOUND email address: ccastaneda@uw.edu
+**** Student record *******************
+First Name: Carlos
+ Last Name: Castaneda
+       GPA: 3.8
+     Email: ccastaneda@uw.edu
+  Enrolled: 2/26/2021 5:10:00 PM
+
+      Year: Junior
+     Major: Biology
+
+Editing student type: Undergrad
+
+        ************************************
+        ***** Edit Student Menu ************
+        ************************************
+        [F]irst name
+        [L]ast name
+        [G]rade pt average
+        [E]nrollment date
+        [Y]ear in school            (undergrad only)
+        [D]egree major              (undergrad only)
+        [T]uition teaching credit   (graduate only)
+        Faculty [A]dvisor           {graduate only}
+        ** Email address can never be modified. See admin.
+
+ENTER edit menu selection: y
+ENTER new year/rank in school from the following choices.
+[1] Freshman, [2] Sophomore, [3] Junior, [4] Senior: 4
+
+EDIT operation done. Current record info:
+**** Student record *******************
+First Name: Carlos
+ Last Name: Castaneda
+       GPA: 3.8
+     Email: ccastaneda@uw.edu
+  Enrolled: 2/26/2021 5:10:00 PM
+
+      Year: Senior
+     Major: Biology
+
+Press any key to continue...
+
+        ******************************************
+        ******* Student Database App *************
+        ******************************************
+        [A]dd a student record          (C in CRUD)
+        [F]ind a record                 (R in CRUD)
+        [P]rint all the records         (Only for testing)
+        [D]elete an existing record     (D in CRUD)
+        [M]odify an existing record     (U in CRUD)
+        [E]xit without saving changes
+        [S]ave all changes and quit
+
+ENTER user selection: d
+ENTER email address (primary key) to search:
+kylelam@uw.edu
+kylelam@uw.edu NOT FOUND.
+***** RECORD NOT FOUND.
+Can't delete record for user:kylelam@uw.edu.
+
+        ******************************************
+        ******* Student Database App *************
+        ******************************************
+        [A]dd a student record          (C in CRUD)
+        [F]ind a record                 (R in CRUD)
+        [P]rint all the records         (Only for testing)
+        [D]elete an existing record     (D in CRUD)
+        [M]odify an existing record     (U in CRUD)
+        [E]xit without saving changes
+        [S]ave all changes and quit
+
+ENTER user selection: d
+ENTER email address (primary key) to search:
+ddillon@uw.edu
+FOUND email address: ddillon@uw.edu
+
+        ******************************************
+        ******* Student Database App *************
+        ******************************************
+        [A]dd a student record          (C in CRUD)
+        [F]ind a record                 (R in CRUD)
+        [P]rint all the records         (Only for testing)
+        [D]elete an existing record     (D in CRUD)
+        [M]odify an existing record     (U in CRUD)
+        [E]xit without saving changes
+        [S]ave all changes and quit
+
+ENTER user selection: f
+ENTER email address (primary key) to search:
+aanderson@uw.edu
+FOUND email address: aanderson@uw.edu
+
+        ******************************************
+        ******* Student Database App *************
+        ******************************************
+        [A]dd a student record          (C in CRUD)
+        [F]ind a record                 (R in CRUD)
+        [P]rint all the records         (Only for testing)
+        [D]elete an existing record     (D in CRUD)
+        [M]odify an existing record     (U in CRUD)
+        [E]xit without saving changes
+        [S]ave all changes and quit
+
+ENTER user selection: a
+ENTER email address (primary key) to search:
+kylelam@uw.edu
+kylelam@uw.edu NOT FOUND.
+Adding new student, Email: kylelam@uw.edu
+ENTER first name: Kyle
+Enter last name: Lam
+ENTER grad pt. average: 3.6
+[U]undergrad or [G]rad student? u
+[1]Freshman, [2]Sophomore, [3]Junior, [4]Senior
+ENTER year/rank in school from above choices: 3
+ENTER major degree program: Computer science
+
+        ******************************************
+        ******* Student Database App *************
+        ******************************************
+        [A]dd a student record          (C in CRUD)
+        [F]ind a record                 (R in CRUD)
+        [P]rint all the records         (Only for testing)
+        [D]elete an existing record     (D in CRUD)
+        [M]odify an existing record     (U in CRUD)
+        [E]xit without saving changes
+        [S]ave all changes and quit
+
+ENTER user selection: sWriting data to output file....
+StudentDB.GradStudent
+Alice
+Anderson
+4
+aanderson@uw.edu
+2/26/2021 5:10:00 PM
+22222.99
+Dr. Matt Tolentino
+StudentDB.Undergrad
+Bob
+Bradshaw
+3.9
+bbradshaw@uw.edu
+2/26/2021 5:10:00 PM
+ Freshman
+Computer Science
+StudentDB.Undergrad
+Carlos
+Castaneda
+3.8
+ccastaneda@uw.edu
+2/26/2021 5:10:00 PM
+ Senior
+Biology
+StudentDB.Undergrad
+Kyle
+Lam
+3.6
+kylelam@uw.edu
+2/27/2021 10:43:29 PM
+ Junior
+Computer science
+Done writing data - file has been closed
+PS C:\devel\StudentDB> ^C

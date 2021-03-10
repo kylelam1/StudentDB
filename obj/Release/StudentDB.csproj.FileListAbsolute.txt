@@ -1,0 +1,13 @@
+C:\Users\kylel\Documents\T info 200\StudentDB\bin\Release\StudentDB.exe.config
+C:\Users\kylel\Documents\T info 200\StudentDB\bin\Release\StudentDB.exe
+C:\Users\kylel\Documents\T info 200\StudentDB\bin\Release\StudentDB.pdb
+C:\Users\kylel\Documents\T info 200\StudentDB\obj\Release\StudentDB.csproj.CoreCompileInputs.cache
+C:\Users\kylel\Documents\T info 200\StudentDB\obj\Release\StudentDB.exe
+C:\Users\kylel\Documents\T info 200\StudentDB\obj\Release\StudentDB.pdb
+C:\devel\StudentDB\bin\Release\StudentDB.exe.config
+C:\devel\StudentDB\bin\Release\StudentDB.exe
+C:\devel\StudentDB\bin\Release\StudentDB.pdb
+C:\devel\StudentDB\obj\Release\StudentDB.csproj.CoreCompileInputs.cache
+C:\devel\StudentDB\obj\Release\StudentDB.exe
+C:\devel\StudentDB\obj\Release\StudentDB.pdb
+C:\devel\StudentDB\obj\Release\StudentDB.csprojAssemblyReference.cache
